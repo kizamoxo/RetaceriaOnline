@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a mi sitio web</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="General.css">
+    <link rel="stylesheet" type="text/css" href="Navegación.css">
+
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="nav__logo">
+          <a href="#">
+          </a>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#features">Características</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#about">Acerca de nosotros</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__hero">
+        <div class="header__inner">
+          <h1 class="header__title">Bienvenido a Retacería Online</h1>
+          <p class="header__subtitle">Aquí encontrarás todo lo que necesitas</p>
+          <a class="btn btn--primary" href="#">Comprar ahora</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="features" class="section section--features">
+        <div class="section__inner">
+          <h2 class="section__title">Facil y practico</h2>
+          <p class="section__subtitle">Descubre las telas y ofertas que necesitas</p>
+          <div class="features">
+          
+            <div class="feature">
+              <i class="feature__icon fas fa-shopping-cart"></i>
+              <h3 class="feature__title">Compras en línea</h3>
+              <p class="feature__text">Compra fácilmente desde la comodidad de tu dispositivo</p>
+            </div>
+            <div class="feature">
+              <i class="feature__icon fas fa-shipping-fast"></i>
+              <h3 class="feature__title">Envío Seguro</h3>
+              <p class="feature__text">Recibe tus productos a traves de VíaCargo y Correo Argentino</p>
+            </div>
+            <div class="feature">
+              <i class="feature__icon fas fa-headset"></i>
+              <h3 class="feature__title">Soporte 24/7</h3>
+              <p class="feature__text">Contáctanos en cualquier momento y te ayudaremos con lo que necesites.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="section">
+        <div class="section__inner">
+          <h2 class="section__title">Acerca de nosotros</h2>
+          <p class="section__subtitle">Conoce más sobre nuestra empresa</p>
+          <p>Somos una empresa dedicada a la venta en línea de todo tipo de productos de calidad y a precios accesibles. Nos enfocamos en ofrecer una experiencia de compra única y satisfactoria para nuestros clientes, por lo que trabajamos constantemente para mejorar nuestros procesos y productos.</p>
+          <p>En nuestro sitio web podrás encontrar una amplia variedad de productos, desde artículos de tecnología hasta productos para el hogar, todos ellos de marcas reconocidas y de la mejor calidad.</p>
+          <p>No dudes en contactarnos si tienes alguna duda o si necesitas ayuda con tu compra. Estamos aquí para brindarte el mejor servicio.</p>
+          </div>
+          </section>
+          <section id="contact" class="section section--contact">
+          <div class="section__inner">
+          <h2 class="section__title">Contacto</h2>
+          <p class="section__subtitle">¡Contáctanos y te responderemos lo antes posible!</p>
+          <form class="form">
+          <div class="form__group">
+          <label class="form__label" for="name">Nombre:</label>
+          <input class="form__input" type="text" id="name" name="name" required>
+          </div>
+          <div class="form__group">
+          <label class="form__label" for="email">Correo electrónico:</label>
+          <input class="form__input" type="email" id="email" name="email" required>
+          </div>
+          <div class="form__group">
+          <label class="form__label" for="message">Mensaje:</label>
+          <textarea class="form__input form__input--textarea" id="message" name="message" required></textarea>
+          </div>
+          <button class="btn btn--primary" type="submit">Enviar mensaje</button>
+          </form>
+          </div>
+          </section>
+          </main>
+          <footer class="footer">
+          <div class="footer__inner">
+          <p>© 2023 Todos los derechos reservados</p>
+          </div>
+          </footer>
+          
+            </body>
+          </html>
